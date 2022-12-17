@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(214, 135, 103);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(247, 234, 175);
+}
+nav ul {
+    list-style: none;
+    
+
+}
+ul li {
+    float: left;
+    width: 15rem;
+}
+a {
+    display: block;
+    padding: 1rem;
+    background-color: rgb(247, 234, 175);
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(214, 135, 103);
+    font-size: x-large;
+    
+}
