@@ -66,6 +66,8 @@ a {
     background-color: rgb(247, 234, 175);
     align-items: center;
     justify-content: center;
+    background-image: url("./HairDayLogos/Artboard\ 23.png");
+    background-size: contain;
    
 }
 card {
@@ -77,6 +79,14 @@ card {
 }
 card h2 {
     margin-top: 0.6rem;
+}
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+}
+h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 3rem;
 }
 
 
