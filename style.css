@@ -88,6 +88,16 @@ h2 {
     font-family: 'Tangerine', cursive;
     font-size: 3rem;
 }
+card img {
+    float: left;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+p {
+    font-family: 'Tangerine', cursive;
+    font-size: x-large;
+}
 
 
 
@@ -103,3 +113,5 @@ h2 {
 a:hover {
     color:rgb(208, 93, 47)
 }
+
+
