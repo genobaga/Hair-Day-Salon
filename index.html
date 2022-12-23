@@ -20,9 +20,9 @@
         <ul>
             <li><img src="./HairDayLogos/Artboard 1.png" width="80px" height="60px" /></li>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Staff</a></li>
+            <li><a href="#staff">Staff</a></li>
             <li><a href="#">Services</a></li>
-            <li><a href="#">Appointments</a></li>
+            <li><a href="#appointment">Appointments</a></li>
         </ul>
     </nav>
 
@@ -33,7 +33,7 @@
         
 
         <div class="container">
-            <card class=" meet">
+            <card class=" meet" id="staff">
                 <h1>Meet our Staff</h1>
 
             </card>
@@ -80,6 +80,32 @@
                 <p><a>Book With Me</a></p>
             </card>
         </div>
+        <form id="appointment">
+            <h2>Make an Appointment</h2>
+            <label for="first_name">First Name</label>
+            <input name="first_name" id="first_name" type="text" />
+            <label for="last_name">Last Name</label>
+            <input name="last_name" id="last_name" type="text" />
+            <label for="telephone">Phone Number</label>
+            <input name="telephone" id="telephone" type="tel" />
+            <fieldset>
+                <legend>Type of Service</legend>
+                <div>
+                    <input name="mens_cut" id="mens_cut" type="checkbox" />
+                    <label for="mens_cut">Men's Cut</label>
+                    <input name="womens_cut" id="womens_cut" type="checkbox" />
+                    <label for="womens_cut">Women's Cut</label>
+                    <input name="color" id="color" type="checkbox" />
+                    <label for="color">Color</label>
+                    <input name="lashes" id="lashes" type="checkbox" />
+                    <label for="lashes">Lashes</label>
+                </div>
+
+            </fieldset>
+            <label for="appointment">Date of Appointment</label>
+            <input name="appointment" id="appointment" type="date" />
+            
+        </form>
     </main>
 
     <footer>

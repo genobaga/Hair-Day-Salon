@@ -36,6 +36,9 @@ ul a {
 
 
 /* Banner */
+body {
+    background-color: rgb(247, 234, 175);
+}
 .banner {
     /* background-image: url("./HairDayLogos/inside-salon.jpg");
     background-size: 200px 200px;
@@ -111,6 +114,12 @@ p {
     font-family: 'Bebas Neue', cursive;
     color: rgb(213, 107, 64);
     font-size: x-large;
+}
+form {
+    background-color: rgb(247, 234, 175);
+    border: 5px solid rgb(213, 107, 64);
+    margin: 2rem;
+
 }
 
 
