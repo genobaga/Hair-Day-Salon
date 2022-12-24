@@ -21,7 +21,7 @@
             <li><img src="./HairDayLogos/Artboard 1.png" width="80px" height="60px" /></li>
             <li><a href="#">Home</a></li>
             <li><a href="#staff">Staff</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#services">Services</a></li>
             <li><a href="#appointment">Appointments</a></li>
         </ul>
     </nav>
@@ -42,44 +42,63 @@
                 <h2>Calen</h2>
                 <img src="./HairDayLogos/headshot_1.jpg"  />
                 <p>Specialty: Color</p>
-                <p><a>Book With Me</a></p>
+                <p><a href="#appointment">Book With Me</a></p>
             </card>
 
             <card class="staff staff_2">
                 <h2>Caleena</h2>
                 <img src="./HairDayLogos/headshot_3.jpg" />
                 <p>Specialty: Men's Cut, Color </p>
-                <p><a>Book With Me</a></p>
+                <p><a href="#appointment">Book With Me</a></p>
             </card>
 
             <card class="staff staff_3">
                 <h2>Helena</h2>
                 <img src="./HairDayLogos/headshot_4.jpg" />
                 <p>Specialty: Women's Cut </p>
-                <p><a>Book With Me</a></p>
+                <p><a href="#appointment">Book With Me</a></p>
             </card>
 
             <card class="staff staff_4">
                 <h2>Sharqueesha</h2>
                 <img src="./HairDayLogos/headshot_2.jpg"  />
                 <p>Specialty: Color, Women's Cut</p>
-                <p><a>Book With Me</a></p>
+                <p><a href="#appointment">Book With Me</a></p>
             </card>
 
             <card class="staff staff_5">
                 <h2>Bob</h2>
                 <img src="./HairDayLogos/headshot_5.jpg" />
                 <p>Specialty: Color, Lashes</p>
-                <p><a>Book With Me</a></p>
+                <p><a href="#appointment">Book With Me</a></p>
             </card>
 
             <card class="staff staff_6">
                 <h2>Bob</h2>
                 <img src="./HairDayLogos/headshot_6.jpg" />
                 <p>Specialty: Women's Cut, Lashes </p>
-                <p><a>Book With Me</a></p>
+                <p><a href="#appointment">Book With Me</a></p>
             </card>
         </div>
+        <section id="services">
+            <div class="services">
+                <h1>Services We Offer</h1>
+            </div>
+            
+        <div class="services">
+                <card class="haircut">
+                    <h2>Men/Women Haircut</h2>
+                </card>
+                <card class="color">
+                    <h2>Color</h2>
+                </card>
+                <card class="lashes">
+                    <h2>Lashes</h2>
+                </card>
+        </div>
+        </section>
+
+
         <form id="appointment">
             <h2>Make an Appointment</h2>
             <label for="first_name">First Name</label>
@@ -90,7 +109,7 @@
             <input name="telephone" id="telephone" type="tel" />
             <fieldset>
                 <legend>Type of Service</legend>
-                <div>
+                <div class="checkbox">
                     <input name="mens_cut" id="mens_cut" type="checkbox" />
                     <label for="mens_cut">Men's Cut</label>
                     <input name="womens_cut" id="womens_cut" type="checkbox" />
@@ -102,9 +121,18 @@
                 </div>
 
             </fieldset>
+            <label for="stylist">Select Stylist</label>
+            <select name="stylist">
+                <option value="Calen">Calen</option>
+                <option value="Caleena">Caleena</option>
+                <option value="Helena">Helena</option>
+                <option value="Sharqueesha">Sharqueesha</option>
+                <option value="Bob">Bob</option>
+                <option value="Bob_2">Bob</option>
+            </select>
             <label for="appointment">Date of Appointment</label>
             <input name="appointment" id="appointment" type="date" />
-            
+            <button type="submit">Confirm Appointment</button>
         </form>
     </main>
 
@@ -114,13 +142,14 @@
                 <img src="./HairDayLogos/Artboard 19.png" width="50px" height="50px" />
                 <p>12345 Palm West Drive CA 47301</p>
             </div>
-            <div>
+            <div class="links">
                 <a>Contact | </a>
                 <a>Careers | </a>
                 <a>Help | </a>
                 <a>Instagram</a>
-
+                <p>Copyright Hair Day</p>
             </div>
+            
         </div>
     </footer>
 </body>

@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Bebas Neue', cursive;
 }
 /* Navbar */
 
@@ -54,6 +55,8 @@ body {
     height: 35rem;
     
 }
+
+
 /* Grid */
 .container {
     display: grid;
@@ -90,11 +93,10 @@ card h2 {
     margin-top: 0.6rem;
 }
 h1 {
-    font-family: 'Tangerine', cursive;
     font-size: 5rem;
 }
 h2 {
-    font-family: 'Tangerine', cursive;
+    
     font-size: 3rem;
 }
 card img {
@@ -104,23 +106,82 @@ card img {
     object-fit: cover;
 }
 p {
-    font-family: 'Tangerine', cursive;
+    
     font-size: x-large;
 }
 .staff a {
     display: block;
-    padding: 1rem;
     background-color: coral;
     font-family: 'Bebas Neue', cursive;
     color: rgb(213, 107, 64);
     font-size: x-large;
 }
+
+
+/* Services */
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.services card {
+    margin: 3rem;
+    padding: 1rem;
+    width: 18rem;
+    height: 25rem;
+}
+.haircut {
+    background-image: url(./HairDayLogos/haircut_2.jpg);
+    background-size: cover;
+    background-position: 10%;
+    
+}
+.color {
+    background-image: url(./HairDayLogos/color.jpg);
+    background-size: cover;
+
+}
+.lashes {
+    background-image: url(./HairDayLogos/lashes_2.webp);
+    background-size: cover;
+}
+section h1 {
+    margin-top: 5rem;
+}
+
+
+
+/* Form */
 form {
     background-color: rgb(247, 234, 175);
     border: 5px solid rgb(213, 107, 64);
     margin: 2rem;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+input {
+    margin-bottom: 1.5rem;
+}
+fieldset {
+    margin-bottom: 1.5rem;
+}
+select {
+    margin-bottom: 1.5rem;
+}
+.checkbox {
+    padding: 1.5rem;
+}
+button {
+    margin-bottom: 1.5rem;
+    background-color: rgb(213, 107, 64);
+    width: 9rem;
+    height: 3rem;
+    border-radius: 8%;
+    font-size: 1.1rem;
+}
+
 
 
 
@@ -144,6 +205,12 @@ footer a {
 footer p {
     font-family: 'Bebas Neue', cursive;
     color: rgb(247, 234, 175);
+}
+.links {
+    border-bottom: 3px solid black;
+}
+.links p {
+    color: black;
 }
 
 
